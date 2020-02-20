@@ -1,0 +1,121 @@
+* {    background: #b07cf7;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,700,900&display=swap');
+
+
+h1,h2 {background: #b07cf7; ;
+}
+h1 {font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 700;}
+
+h2 {font-size: 17px;
+    font-family: "Releway", sans-serif;
+    width: 563px;
+    height: 66px;
+margin-left: auto;
+margin-right: auto;
+line-height: 1.471;
+text-align: center;
+color: rgb(255, 255, 255, 0.7);
+font-weight: 200;}
+
+
+.main {width: 1200px;
+    height: 600px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    
+    width: 370px;
+    height: 310px;
+    background: #ffffff;
+    position: relative;
+}
+
+
+  .bg { box-sizing: border-box ;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    opacity: 0.502;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+  }
+  
+p {background: none;
+    }
+
+.bg p:first-of-type {
+    font-size: 32px;
+    margin: 0;
+    line-height: 32px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.bg p:last-of-type {
+    font-size: 21px;
+    font-weight: bold;
+    z-index: 2;
+    margin: 0;
+    line-height: 21px;
+    opacity: 1;
+}
+
+.text {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    width: 307px;
+    height: 78px;
+    z-index: 34;
+    background: none;
+  }
+  
+
+.text p:last-of-type {font-size: 13px;
+opacity: 0.5;}
+
+.viev {
+    font-size: 20px;
+    font-family: "Raleway light";
+    color: rgb(255, 255, 255);
+    line-height: 2.78;
+    z-index: 6;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(247, 43, 59);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 55px;
+    z-index: 5;
+    text-align: center;
+      }
+      
+  
+.box:hover {     transform: scale(1.2);
+}
+
+.main:first-child { border-radius: 70%;}
+
